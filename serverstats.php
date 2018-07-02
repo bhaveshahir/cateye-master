@@ -254,8 +254,7 @@
                                             mysql_select_db('cateyedashboard_db');
                                             $retval = mysql_query( $sql, $dbh );
                                             while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
-                                            {
-                                                ?>
+                                            {?>
                                                 <input type="checkbox" name="" id="Webserver1"><?php
                                                 echo "{$row['enterprise_server']}";
                                             }
