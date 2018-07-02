@@ -228,6 +228,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <div class="checkbox">
+                                        
                                         <?php      
                                             $sql = 'SELECT DISTINCT web_server_instance_name FROM ce_callobject_stats';
                                             mysql_select_db('cateyedashboard_db');
@@ -249,6 +250,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <div class="checkbox">
+                                        
                                         <?php      
                                             $sql = 'SELECT DISTINCT enterprise_server FROM ce_callobject_stats';
                                             mysql_select_db('cateyedashboard_db');
